@@ -15,14 +15,20 @@
  *
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * @author Konst
  * @link mrbald@bigmir.net
  */
-public class ComputerMove {
-    public void make(final GameTable gameTable) {
+public class WinnerVerifier {
+    public boolean isUserWin(final GameTable gameTable) {
+        return false;
+    }
 
+    public boolean isComputerWin(final GameTable gameTable) {
+        return false;
     }
 }

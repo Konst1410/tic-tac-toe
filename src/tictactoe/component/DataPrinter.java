@@ -15,14 +15,19 @@
  *
  */
 
-package tictactoe;
+package tictactoe.component;
+
+import tictactoe.model.GameTable;
 
 /**
  * @author Konst
  * @link mrbald@bigmir.net
  */
-public class DrawVerifier {
-    public boolean isDraw(final GameTable gameTable) {
-        return false;
+public class DataPrinter {
+    public void printMappingTable() {
+    }
+
+    public void printGameTable(final GameTable gameTable) {
+
     }
 }
